@@ -1,4 +1,5 @@
-﻿using NinjaData;
+﻿using ItThatFlipped.ViewModels;
+using NinjaData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,35 +26,21 @@ namespace ItThatFlipped
         {
             InitializeComponent();
             ApiHelper.InitializeClient();
-            
-        }
-
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private async void LoadBreachstones(object sender, RoutedEventArgs e)
-        {
-            await BreachstonePriceProcessor.InitLoadAsync();
-            List<Tuple<string, float>> stones = BreachstonePriceProcessor.ProfitCalc();
-            string temp = "";
-            foreach (var item in stones)
-            {
-                temp += $"{item.Item1, -40}{item.Item2}\n";
-            }
-            TestBox.Text = temp;
         }
 
         private void TestClear(object sender, RoutedEventArgs e)
         {
-            TestBox.Text = "";
+            /*TestBox.Text = "";*/
         }
 
-        private async void UpdateBreachstones(object sender, RoutedEventArgs e)
+        private void PaleCourt_Clicked(object sender, RoutedEventArgs e)
         {
-            await BreachstonePriceProcessor.LoadData();
-            LoadBreachstones(sender, e);
+            DataContext = new PaleCourtModel();
+        }
+
+        private void Breachstone_Clicked(object sender, RoutedEventArgs e)
+        {
+            DataContext = new BreachstonesModel();
         }
     }
 }

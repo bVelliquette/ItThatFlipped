@@ -23,3 +23,8 @@ E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlip
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.dll
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.pdb
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.genruntimeconfig.cache
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\Breachstones.g.cs
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\Breachstones.baml
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\PaleCourt.g.cs
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\PaleCourt.baml
