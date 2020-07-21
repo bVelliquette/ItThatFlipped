@@ -29,16 +29,16 @@ namespace ItThatFlipped.Views
         {
             try
             {
-                await BreachstonePriceProcessor.InitLoadAsync();
+                await FragmentsPriceProcessor.InitLoadAsync();
 
-                List<Tuple<string, float>> stones = BreachstonePriceProcessor.ProfitCalc();
+                List<Tuple<string, float>> stones = FragmentsPriceProcessor.BreachstoneProfitCalc();
                 string temp = "";
                 foreach (var item in stones)
                 {
-                    temp += $"{item.Item1,-40}{item.Item2}\n";
+                    temp += $"{item.Item1,-40}{item.Item2:F2}\n";
                 }
                 TestBox.Text = temp;
-                Status.Text = "Loaded";
+                Status.Text = $"Breachstone prices successfully loaded for {ApiHelper.currentLeague} league";
             }
             catch (System.Net.Http.HttpRequestException)
             {
@@ -46,17 +46,17 @@ namespace ItThatFlipped.Views
             }
 
         }
-        private async void UpdateBreachstones(object sender, RoutedEventArgs e)
+        private async void UpdateFragments(object sender, RoutedEventArgs e)
         {
-                        try
-                        {
-                            await BreachstonePriceProcessor.LoadData();
-                            UserControl_Loaded(sender, e);
-                        }
-                        catch (System.Net.Http.HttpRequestException)
-                        {
-                            Status.Text = "Could not resolve hostname.\nCheck your internet connection, or poe.ninja servers may be down.";
-                        }
+            try
+            {
+                await FragmentsPriceProcessor.LoadData();
+                UserControl_Loaded(sender, e);
+            }
+            catch (System.Net.Http.HttpRequestException)
+            {
+                Status.Text = "Could not resolve hostname.\nCheck your internet connection, or poe.ninja servers may be down.";
+            }
         }
     }
 }

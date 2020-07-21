@@ -28,11 +28,6 @@ namespace ItThatFlipped
             ApiHelper.InitializeClient();
         }
 
-        private void TestClear(object sender, RoutedEventArgs e)
-        {
-            /*TestBox.Text = "";*/
-        }
-
         private void PaleCourt_Clicked(object sender, RoutedEventArgs e)
         {
             DataContext = new PaleCourtModel();
@@ -41,6 +36,19 @@ namespace ItThatFlipped
         private void Breachstone_Clicked(object sender, RoutedEventArgs e)
         {
             DataContext = new BreachstonesModel();
+        }
+
+        private void MainLoaded(object sender, RoutedEventArgs e)
+        {
+            LeagueSelect.ItemsSource = ApiHelper.LeagueNames;
+            LeagueSelect.SelectedIndex = 2; //Defaults to Current trade challenge league.
+        }
+
+        private void NewLeagueSelected(object sender, SelectionChangedEventArgs e)
+        {
+            ApiHelper.currentLeague = (string)LeagueSelect.SelectedItem;
+            FragmentsPriceProcessor.InitialLoadCompleted = false;
+
         }
     }
 }
