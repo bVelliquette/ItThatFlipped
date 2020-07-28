@@ -43,15 +43,8 @@ namespace ItThatFlipped.Views
                 await FragmentsPriceProcessor.InitLoadAsync();
                 await ProphecyProcessor.InitLoadAsync();
 
-                List<Tuple<string, float, string, float, float>> PaleCourtKeys = FragmentsPriceProcessor.PaleCourtProfitCalc();
-                string temp = "";
-                foreach (var item in PaleCourtKeys)
-                {
-                    temp += $"{item.Item1}: {item.Item2:F2}\n";
-                    temp += $"{item.Item3}: {item.Item4:F2}\n";
-                    temp += $"Profit: {item.Item5:F2} Chaos\n\n";
-                }
-                TestBox.Text = temp;
+                List<PaleCourtPriceDiff> PaleCourtKeys = FragmentsPriceProcessor.PaleCourtProfitCalc();
+                PaleList.ItemsSource = PaleCourtKeys;
                 Status.Text = $"PaleCourt prices successfully loaded for {ApiHelper.currentLeague} league";
             }
             catch (System.Net.Http.HttpRequestException)

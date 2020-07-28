@@ -7,7 +7,7 @@
         xmlns:viewmodels="clr-namespace:ItThatFlipped.ViewModels"
         xmlns:views="clr-namespace:ItThatFlipped.Views"
         mc:Ignorable="d"
-        Title="It That Flipped" Height="450" Width="800" Background="#FF2C2C2C" MinWidth="750" MinHeight="450">
+        Title="It That Flipped" Height="450" Width="800" Background="#FF2C2C2C" MinWidth="684" MinHeight="450">
     <Window.Resources>
         <DataTemplate x:Name="PaleCourtTemplate" DataType="{x:Type viewmodels:PaleCourtModel}">
             <views:PaleCourt DataContext="{Binding}"/>
@@ -24,7 +24,8 @@
 
         <DockPanel Grid.Column="0">
             <StackPanel>
-                <ComboBox x:Name="LeagueSelect" Height="20" Loaded="MainLoaded" SelectionChanged="NewLeagueSelected"></ComboBox>
+                <TextBlock Text="Select League" Foreground="White"/>
+                <ComboBox x:Name="LeagueSelect" Height="20" Loaded="MainLoaded" SelectionChanged="NewLeagueSelected" Margin="0,0,0,3"></ComboBox>
                 <Button Content="Breachstones" Click="Breachstone_Clicked"/>
                 <Button Content="Pale Court Fragments" Click="PaleCourt_Clicked"/>
             </StackPanel>

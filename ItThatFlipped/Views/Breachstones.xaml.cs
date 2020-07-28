@@ -31,14 +31,10 @@ namespace ItThatFlipped.Views
             {
                 await FragmentsPriceProcessor.InitLoadAsync();
 
-                List<Tuple<string, float>> stones = FragmentsPriceProcessor.BreachstoneProfitCalc();
-                string temp = "";
-                foreach (var item in stones)
-                {
-                    temp += $"{item.Item1,-40}{item.Item2:F2}\n";
-                }
-                TestBox.Text = temp;
+                List<BreachStonePriceDiff> stones = FragmentsPriceProcessor.BreachstoneProfitCalc();
+                PriceList.ItemsSource = stones;
                 Status.Text = $"Breachstone prices successfully loaded for {ApiHelper.currentLeague} league";
+
             }
             catch (System.Net.Http.HttpRequestException)
             {

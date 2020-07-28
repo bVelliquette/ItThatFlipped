@@ -1,4 +1,5 @@
 ﻿using ItThatFlipped.ViewModels;
+using ItThatFlipped.Views;
 using NinjaData;
 using System;
 using System.Collections.Generic;
@@ -48,7 +49,7 @@ namespace ItThatFlipped
         {
             ApiHelper.currentLeague = (string)LeagueSelect.SelectedItem;
             FragmentsPriceProcessor.InitialLoadCompleted = false;
-
+            ProphecyProcessor.InitialLoadCompleted = false;
         }
     }
 }
