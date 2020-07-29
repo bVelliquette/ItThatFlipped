@@ -4573,11 +4573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\repos\\FlippingGuide\\NinjaData\\NinjaData.csproj",
+      "projectUniqueName": "E:\\Projects\\repos\\ItThatFlipped\\NinjaData\\NinjaData.csproj",
       "projectName": "NinjaData",
-      "projectPath": "E:\\Projects\\repos\\FlippingGuide\\NinjaData\\NinjaData.csproj",
+      "projectPath": "E:\\Projects\\repos\\ItThatFlipped\\NinjaData\\NinjaData.csproj",
       "packagesPath": "C:\\Users\\Ben J Man\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\repos\\FlippingGuide\\NinjaData\\obj\\",
+      "outputPath": "E:\\Projects\\repos\\ItThatFlipped\\NinjaData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ben J Man\\AppData\\Roaming\\NuGet\\NuGet.Config",

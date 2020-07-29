@@ -4576,8 +4576,8 @@
     },
     "NinjaData/1.0.0": {
       "type": "project",
-      "path": "../../FlippingGuide/NinjaData/NinjaData.csproj",
-      "msbuildProject": "../../FlippingGuide/NinjaData/NinjaData.csproj"
+      "path": "../NinjaData/NinjaData.csproj",
+      "msbuildProject": "../NinjaData/NinjaData.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4611,8 +4611,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Projects\\repos\\FlippingGuide\\NinjaData\\NinjaData.csproj": {
-              "projectPath": "E:\\Projects\\repos\\FlippingGuide\\NinjaData\\NinjaData.csproj"
+            "E:\\Projects\\repos\\ItThatFlipped\\NinjaData\\NinjaData.csproj": {
+              "projectPath": "E:\\Projects\\repos\\ItThatFlipped\\NinjaData\\NinjaData.csproj"
             }
           }
         }

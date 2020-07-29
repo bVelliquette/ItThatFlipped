@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qYdkpnMLyILxkIG5bnRzaAWdYzF6216E4G+0GEsNH5xsSTTBItQplnRK+JQWsfdXMpUJw8zArpiqX64fMhnaow==",
+  "dgSpecHash": "zQ7qc0yDzujo3shhGi1TYjeDw68CWaPXZJLacFKtjuwFuo21//NRO0qcqHMNx9n3Snrv1oI0D4WPeg98nm1ZTg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\repos\\FlippingGuide\\NinjaData\\NinjaData.csproj",
+  "projectFilePath": "E:\\Projects\\repos\\ItThatFlipped\\NinjaData\\NinjaData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ben J Man\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Ben J Man\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

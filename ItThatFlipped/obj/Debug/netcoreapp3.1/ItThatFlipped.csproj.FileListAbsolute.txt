@@ -11,10 +11,15 @@ E:\Projects\repos\ItThatFlipped\ItThatFlipped\bin\Debug\netcoreapp3.1\NinjaData.
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\bin\Debug\netcoreapp3.1\NinjaData.pdb
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.csprojAssemblyReference.cache
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\Breachstones.g.cs
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\PaleCourt.g.cs
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\App.g.cs
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped_MarkupCompile.cache
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped_MarkupCompile.lref
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\Breachstones.baml
+E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\PaleCourt.baml
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.g.resources
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.AssemblyInfoInputs.cache
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.AssemblyInfo.cs
@@ -23,8 +28,3 @@ E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlip
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.dll
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.pdb
 E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\ItThatFlipped.genruntimeconfig.cache
-E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\Breachstones.g.cs
-E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\Breachstones.baml
-E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\PaleCourt.g.cs
-E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
-E:\Projects\repos\ItThatFlipped\ItThatFlipped\obj\Debug\netcoreapp3.1\Views\PaleCourt.baml

@@ -6,3 +6,4 @@ E:\Projects\repos\FlippingGuide\NinjaData\obj\Release\netcoreapp3.1\NinjaData.As
 E:\Projects\repos\FlippingGuide\NinjaData\obj\Release\netcoreapp3.1\NinjaData.csproj.CoreCompileInputs.cache
 E:\Projects\repos\FlippingGuide\NinjaData\obj\Release\netcoreapp3.1\NinjaData.dll
 E:\Projects\repos\FlippingGuide\NinjaData\obj\Release\netcoreapp3.1\NinjaData.pdb
+E:\Projects\repos\FlippingGuide\NinjaData\obj\Release\netcoreapp3.1\NinjaData.csprojAssemblyReference.cache

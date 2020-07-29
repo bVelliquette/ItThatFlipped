@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\FlippingGuide\NinjaData\NinjaData.csproj" />
+    <ProjectReference Include="..\NinjaData\NinjaData.csproj" />
   </ItemGroup>
 
   <ItemGroup>

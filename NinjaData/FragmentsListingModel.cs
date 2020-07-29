@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NinjaData
 {
-    public class BreachstoneListingModel
+    public class FragmentsListingModel
     {
         public List<Fragment> Lines { get; set; }
     }
