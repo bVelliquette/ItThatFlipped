@@ -15,6 +15,9 @@
         <DataTemplate x:Name="BreachstonesTemplate" DataType="{x:Type viewmodels:BreachstonesModel}">
             <views:Breachstones DataContext="{Binding}"/>
         </DataTemplate>
+        <DataTemplate x:Name="FatedTemplate" DataType="{x:Type viewmodels:FatedModel}">
+            <views:Fated DataContext="{Binding}"/>
+        </DataTemplate>
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -28,6 +31,7 @@
                 <ComboBox x:Name="LeagueSelect" Height="20" Loaded="MainLoaded" SelectionChanged="NewLeagueSelected" Margin="0,0,0,3"></ComboBox>
                 <Button Content="Breachstones" Click="Breachstone_Clicked"/>
                 <Button Content="Pale Court Fragments" Click="PaleCourt_Clicked"/>
+                <Button Content="Fated Uniques" Click="Fated_Clicked"/>
             </StackPanel>
         </DockPanel>
 

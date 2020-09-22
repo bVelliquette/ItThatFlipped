@@ -23,6 +23,9 @@
     <Page Update="Views\Breachstones.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Fated.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\PaleCourt.xaml">
       <SubType>Designer</SubType>
     </Page>

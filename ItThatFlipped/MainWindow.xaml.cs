@@ -39,6 +39,11 @@ namespace ItThatFlipped
             DataContext = new BreachstonesModel();
         }
 
+        private void Fated_Clicked(object sender, RoutedEventArgs e)
+        {
+            DataContext = new FatedModel();
+        }
+
         private void MainLoaded(object sender, RoutedEventArgs e)
         {
             LeagueSelect.ItemsSource = ApiHelper.LeagueNames;
